@@ -31,5 +31,6 @@ The installation instructions should be sufficiently clear. For those that wish 
   * Change `*.png` to whatever you want the extension's icon to be
     * Note: either don't change the filenames, or if you do, propagate that change in `suspend_tabs/manifest.json` (use search & replace)
     * Note: the png files must have dimensions `16x16`, `48x48`, and `128x128`, respectively
+* Note: after making any changes to your local repository, navigate back to `chrome://extensions/` and click `refresh` to sync the changes.
  
 Finally, the 2 `.applescript` files are utility scripts i used to process the leftover URLs after The Marvellous Suspender was depracated. Without going too in depth, The Marvellous Suspender would suspend a tab by taking the URL, and replacing it with a template page that links back to the original URL. blah blah blah, u can basically get back the original URL from the suspended URL by finding `"uri="` & yanking everything that comes after. I made one script that does this only for the current tab, and another that loops through all tabs in the current window. They both work fine, but can sometimes be wonky. I suspect these will be utterly useless for 99% of people reading this, so feel free to ignore/delete these scripts after cloning.
