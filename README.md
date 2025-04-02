@@ -19,7 +19,7 @@ I tend to have hundreds to thousands of Chrome tabs open at any given time. To p
 1. automatically suspend inactive tabs after a period of inactivity, and
 2. manually suspend tabs with 1 click.
 
-The former functionality was taken over by Chrome's memory saver feature (introduced in [Chrome 108](https://developer.chrome.com/blog/memory-and-energy-saver-mode#:~:text=Chrome%20108%20introduced%20two%20new,Chrome%20utilizes%20their%20system%20resources.)), but I still kept the widget around for the latter functionality. On March 31st, 2025, my world came crashing down when Chrome announced the extension would be deprecated (I'd gotten sinister warnings before this, but ignored it like any responsible developer).
+The former functionality was taken over by Chrome's memory saver feature (introduced in [Chrome 108](https://developer.chrome.com/blog/memory-and-energy-saver-mode#:~:text=Chrome%20108%20introduced%20two%20new,Chrome%20utilizes%20their%20system%20resources.)), but I still kept the widget around for the latter functionality. On March 31st, 2025, my world came crashing down when Chrome announced the extension would be deprecated effective immediately (I'd gotten sinister warnings before this, but ignored it like any responsible developer).
 
 What you see here is a replacement extension I cooked up in the hour before I had to take my dog to the vet. Specifically, it takes over the aforementioned functionality (2). 
 
