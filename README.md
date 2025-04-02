@@ -1,6 +1,6 @@
 # Installation
 
-* Clone this repository: `git clone https://github.com/zachtheyek/Smart-Tab-Sleeper.git`
+* Clone this repository: `https://github.com/zachtheyek/Less-Marvellous-Suspender.git`
 * Go to `chrome://extensions/`
 * Turn on `developer mode` (top right corner) > `load unpacked` > navigate to the cloned filepath
 * Select the `suspend_tabs` directory (Note: the `suspend_tabs` directory is nested within the cloned repository. Do not select the entire cloned repository)
